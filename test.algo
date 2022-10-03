@@ -1,0 +1,39 @@
+ALGORITHM lire une phrase
+VAR
+    var char : STRING ;
+    var long : number;
+BEGIN
+ecrire  ('donner moi une phrase')
+
+ lire (char ,'.')
+  
+    long =char.lenght-1;
+    Ecrire ('voici la longeur de votre chaine',long)
+  END_WHILE
+
+END
+ var char='bonjour welcome gomycode .'
+
+    ALGORITHM nombre des mots 
+    VAR
+        var char:=STRING ;
+        sum =0 ;
+    BEGIN
+       ecrire ('donner moi une phrase')
+       lire (char)
+    IF (char =" ") THEN
+        som+=1
+    END_IF 
+    ecrire ("le nombre des mots",sum)
+
+    ALGORITHM  nombre de voyelle
+    VAR
+        v=0
+        char = STRING
+    BEGIN
+        if (char='a' or char='e' or char='i' or char="u"char='y' or char="0")
+        than v+1=1
+        ecrire ('voici le nombre de voyelle',v)
+    END
+
+
